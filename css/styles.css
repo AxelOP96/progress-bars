@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f8fd;
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    background-color: #fefffe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-top: 3em;
+}
+.bar{
+    width: 50%;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #f6f8fd;
+    margin: 2em 0;
+}
+.bar-darker{
+    width: 50%;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #dbe2f3;
+    margin: 2em 0;
+}
+.progress-black{
+    width: 65%;
+    background-color: black;
+    height: max-content;
+    border-radius: 10px;
+    height: 5px;
+}
+.progress-blue{
+    width: 65%;
+    background-color: #306bf8;
+    height: max-content;
+    border-radius: 10px;
+    height: 5px;
+}
+.percentage{
+    background-color: #10182f;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+.verification{
+    background-color: #10182f;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px auto;
+}
+.progress-light{
+    width: 65%;
+    background-color: black;
+    height: max-content;
+    border-radius: 10px;
+    height: 3px;
+}
+.row{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.icon{
+    width: 20px;
+}
+.check{
+    box-shadow: 1px 4px 12px -2px rgba(0,0,0,0.75);
+}
+.select{
+    background-color: #306bf8;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 7px solid #f6f8fd;
+    box-shadow: 1px 4px 12px -2px rgba(0,0,0,0.75);
+}
+.disable{
+    background-color: #fefffe;
+    border: 3px solid #dbe2f3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 99%;
+}
